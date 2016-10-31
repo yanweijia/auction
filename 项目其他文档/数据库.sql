@@ -31,7 +31,7 @@ CREATE TABLE auction(
 	viewed INT UNSIGNED NOT NULL DEFAULT 0,				
 	img_url VARCHAR(1024) NOT NULL DEFAULT 'http://yanweijia.cn:8080/auction/favorite.ico',
 	description VARCHAR(2048) NOT NULL DEFAULT '暂无描述',	
-	markup	DOUBLE UNSIGNED NOT NULL DEFAULT 1,			
+	markup DOUBLE UNSIGNED NOT NULL DEFAULT 1,			
 	post_date DATETIME NOT NULL,						
 	auction_calendar DATETIME NOT NULL DEFAULT '2016/11/28 17:30:00',	
 	auction_status ENUM('待拍卖','已卖出','流拍') NOT NULL DEFAULT '待拍卖',	
